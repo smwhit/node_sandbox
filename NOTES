@@ -1,0 +1,23 @@
+to kill process:
+kill -9 pid
+
+require local file
+var Circle = require('./lib/circle');
+
+now you can create an object
+var c = Circle(1,2,4);
+
+registry of node modules
+npmjs.org
+
+package.json in root (manifest) specifying name, version and dependencies
+i.e.
+
+{
+	"name":"test",
+	"version":"0.1.0",
+	"dependencies": {
+		"request": "*",
+		"async": "*"
+	}
+}
