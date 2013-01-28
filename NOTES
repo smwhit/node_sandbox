@@ -21,3 +21,7 @@ i.e.
 		"async": "*"
 	}
 }
+
+npm install package_name
+npm update
+npm ls
