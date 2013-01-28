@@ -25,3 +25,6 @@ i.e.
 npm install package_name
 npm update
 npm ls
+
+submit json via post via CURL:
+ curl  -v -X POST -H "Content-Type: application/json"  --data '{"tweet":"mates"}'  http://localhost:8000/send
